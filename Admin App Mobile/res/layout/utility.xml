@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+android:id="@+id/wallpaper"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="@drawable/wall"
+android:layout_width="match_parent" android:layout_height="match_parent">
+<ImageButton android:src="@drawable/update" android:id="@+id/update" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="127dip" android:layout_y="52dip"></ImageButton>
+<TextView android:textColor="@color/Black" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Push Updates" android:id="@+id/txtupdate" android:layout_x="114dip" android:layout_y="115dip"></TextView>
+<ImageButton android:src="@drawable/book" android:id="@+id/book" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="129dip" android:layout_y="166dip"></ImageButton>
+<TextView android:textColor="@color/Black" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Enter Book Details" android:id="@+id/txtbook" android:layout_x="102dip" android:layout_y="235dip"></TextView>
+
+
+</AbsoluteLayout>
+

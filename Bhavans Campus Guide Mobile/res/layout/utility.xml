@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+android:id="@+id/wallpaper"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="@drawable/wall"
+>
+ <Button android:layout_x="240dip" android:text="Log out" android:layout_width="wrap_content" android:id="@+id/btnLogOut" android:layout_y="0dip" android:layout_height="40dip"></Button>
+ <TextView android:text="TextView" android:id="@+id/txtUser" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="@color/Black" android:layout_x="0dip" android:layout_y="0dip"></TextView>
+ <ImageButton android:layout_width="wrap_content" android:id="@+id/update" android:background="@drawable/system_software_update" android:layout_height="wrap_content" android:layout_x="126dip" android:layout_y="41dip"></ImageButton>
+ <TextView android:text="Updates" android:id="@+id/txtupdate" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="@color/Black" android:layout_x="124dip" android:layout_y="93dip"></TextView>
+ <ImageButton android:layout_width="wrap_content" android:id="@+id/friend" android:background="@drawable/user_male_search" android:layout_height="wrap_content" android:layout_x="38dip" android:layout_y="99dip"></ImageButton>
+ <TextView android:text="Find Friend" android:id="@+id/txtfriend" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="@color/Black" android:layout_x="26dip" android:layout_y="159dip"></TextView>
+ <ImageButton android:layout_width="wrap_content" android:id="@+id/direction" android:background="@drawable/direction1" android:layout_height="wrap_content" android:layout_x="214dip" android:layout_y="99dip"></ImageButton>
+ <TextView android:text="Ask Direction" android:id="@+id/txtmap" android:layout_height="wrap_content" android:layout_width="150px" android:textColor="@color/Black" android:layout_x="196dip" android:layout_y="159dip"></TextView>
+ <ImageButton android:layout_width="wrap_content" android:id="@+id/book" android:background="@drawable/emblem_library" android:layout_height="wrap_content" android:layout_x="34dip" android:layout_y="201dip"></ImageButton>
+ <TextView android:text="Find a Book" android:id="@+id/txtbook" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="@color/Black" android:layout_x="28dip" android:layout_y="257dip"></TextView>
+ <ImageButton android:layout_width="wrap_content" android:id="@+id/map" android:background="@drawable/contacts" android:layout_height="wrap_content" android:layout_x="214dip" android:layout_y="197dip"></ImageButton>
+ <TextView android:text="View Map" android:id="@+id/txtdirection" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="@color/Black" android:layout_x="206dip" android:layout_y="263dip"></TextView>
+ <ImageButton android:layout_width="wrap_content" android:id="@+id/settings" android:background="@drawable/preferences_system" android:layout_height="wrap_content" android:layout_x="124dip" android:layout_y="279dip"></ImageButton>
+ <TextView android:text="Settings" android:id="@+id/txtmentor" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="@color/Black" android:layout_x="124dip" android:layout_y="337dip"></TextView> 
+</AbsoluteLayout>
+

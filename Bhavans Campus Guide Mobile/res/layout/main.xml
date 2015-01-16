@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/wall">
+    
+    <TableLayout android:layout_width="match_parent" android:id="@+id/tableLayout1" android:layout_height="match_parent">
+        
+        <TableLayout android:id="@+id/tableLayout2" android:layout_height="wrap_content" android:layout_width="match_parent">
+            <TableRow android:id="@+id/tableRow1" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:id="@+id/textView1"  android:text="  User Name:" android:width="120px" android:textColor="@color/Black" android:layout_width="match_parent" android:layout_height="wrap_content"></TextView>
+                <EditText 
+            android:id="@+id/txtUserName" 
+            android:width="200px" />
+            </TableRow>
+            <TableRow android:id="@+id/tableRow2" android:layout_height="wrap_content" android:layout_width="match_parent">
+                <TextView 
+                android:width="120px"
+            android:text="  Password:"
+            android:textColor="@color/Black" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <EditText 
+            android:id="@+id/txtPassword" 
+            android:password="true" 
+            android:width="200px"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            </TableRow>
+            
+            </TableLayout>
+            
+            
+            
+            
+            
+            
+            
+            <TableRow android:id="@+id/tableRow6" android:layout_width="wrap_content" android:layout_height="wrap_content">
+               <AbsoluteLayout
+android:id="@+id/wallpaper"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+xmlns:android="http://schemas.android.com/apk/res/android"
+
+>
+<CheckBox android:layout_width="280px" android:id="@+id/chkRememberMe" android:layout_height="wrap_content" android:textColor="@color/Black" android:text="Remember Me" android:layout_x="2dip" android:layout_y="2dip"></CheckBox>
+            </AbsoluteLayout></TableRow>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        
+        <TableLayout android:id="@+id/tableLayout3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TableRow android:id="@+id/tableRow3" android:layout_height="wrap_content" android:layout_width="wrap_content">
+                <AbsoluteLayout
+android:id="@+id/wallpaper"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+xmlns:android="http://schemas.android.com/apk/res/android"
+
+>
+                <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="48px" android:id="@+id/buttonSignIn" android:text="  " android:background="@drawable/next" android:layout_x="121dip" android:layout_y="5dip"></Button>
+                </AbsoluteLayout>
+            </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_width="wrap_content" android:id="@+id/tableLayout4" android:layout_height="match_parent">
+            <TableRow android:id="@+id/tableRow4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView 
+            android:text="New User?"
+            android:width="120px" android:textColor="@color/Black" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <Button android:text="Sign up" android:width="200px" android:id="@+id/buttonSignUp" android:layout_width="match_parent" android:layout_height="wrap_content"></Button>
+            </TableRow>
+            <TableRow android:id="@+id/tableRow5" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView 
+            android:text="Visitor?"
+            android:width="120px"
+            android:textColor="@color/Black" android:layout_width="wrap_content"/>
+                <Button 
+            android:id="@+id/buttonVistorView" 
+            android:text="Visitor View" 
+            android:width="200px" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            </TableRow>
+        </TableLayout>
+    </TableLayout>
+</LinearLayout>

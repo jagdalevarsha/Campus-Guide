@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+android:id="@+id/wallpaper"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="@drawable/wall"
+>
+            <EditText android:maxLength="30" android:layout_height="wrap_content" android:id="@+id/txtCategory" android:layout_width="265dip" android:layout_x="0dip" android:layout_y="2dip"></EditText>
+            <ImageButton android:background="@drawable/search" android:id="@+id/buttonSearchCategory" android:layout_height="wrap_content" android:layout_width="58px" android:layout_x="270dip" android:layout_y="0dip"></ImageButton>
+            <ListView android:layout_height="wrap_content" android:id="@+id/listBookbyCategory" android:layout_width="fill_parent" android:layout_x="0dip" android:layout_y="86dip"></ListView>
+            <TextView android:id="@+id/txtCountBookbyCategory" android:textSize="18px" android:layout_height="30px" android:layout_width="wrap_content" android:textColor="@color/Black" android:layout_x="4dip" android:layout_y="53dip"></TextView>
+   </AbsoluteLayout>

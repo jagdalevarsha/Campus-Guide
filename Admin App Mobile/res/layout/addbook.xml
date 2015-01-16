@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/wall"
+    >
+        <EditText android:text="" android:layout_height="wrap_content" android:id="@+id/txtBookCategory" android:layout_width="match_parent" android:width="200px" android:layout_x="2dip" android:layout_y="218dip"></EditText>
+        <EditText android:text="" android:layout_height="wrap_content" android:id="@+id/txtAuthorName" android:layout_width="match_parent" android:width="200px" android:layout_x="0dip" android:layout_y="135dip"></EditText>
+        <TextView android:id="@+id/textView3" android:width="120px" android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Author Name" android:textColor="@color/Black" android:layout_x="103dip" android:layout_y="114dip"></TextView>
+        <TextView android:id="@+id/textView2" android:width="120px" android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Book Category" android:textColor="@color/Black" android:layout_x="100dip" android:layout_y="196dip"></TextView>
+        <Button android:id="@+id/buttonAddBook" android:text="" android:background="@drawable/next" android:layout_height="wrap_content" android:layout_width="48dip" android:layout_x="129dip" android:layout_y="277dip"></Button>
+        <EditText android:text="" android:layout_height="wrap_content" android:id="@+id/txtBookName" android:layout_width="match_parent" android:width="200px" android:layout_x="4dip" android:layout_y="54dip"></EditText>
+        <TextView android:id="@+id/textView4" android:width="120px" android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Book Name" android:textColor="@color/Black" android:layout_x="104dip" android:layout_y="28dip"></TextView>
+    
+  
+</AbsoluteLayout>

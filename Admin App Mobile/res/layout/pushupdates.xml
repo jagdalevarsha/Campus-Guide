@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/wall"
+    >
+     <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=""
+    />
+       <RadioGroup android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/typeOfUpdate" android:orientation="vertical" android:layout_x="2dip" android:layout_y="126dip">
+           <RadioButton android:layout_width="wrap_content" android:text="Electronics" android:layout_height="wrap_content" android:id="@+id/rbelec" android:checked="false" android:textColor="@color/Black"></RadioButton>
+           <RadioButton android:layout_width="wrap_content" android:text="General" android:layout_height="wrap_content" android:id="@+id/rbgen" android:checked="false" android:textColor="@color/Black"></RadioButton>
+           <RadioButton android:layout_width="wrap_content" android:text="Computers" android:id="@+id/rbcomp" android:layout_height="wrap_content" android:checked="false" android:textColor="@color/Black"></RadioButton>
+       </RadioGroup>
+       <EditText android:layout_width="match_parent" android:id="@+id/update" android:layout_height="wrap_content" android:layout_x="0dip" android:layout_y="35dip"></EditText>
+       <Button android:layout_width="wrap_content" android:id="@+id/btnPushUpdate" android:background="@drawable/signin" android:layout_height="wrap_content" android:text="  " android:layout_x="134dip" android:layout_y="275dip"></Button>
+       <TextView android:layout_width="fill_parent" android:id="@+id/textView2" android:text="  Which type of update is this?" android:layout_height="wrap_content" android:layout_x="-3dip" android:layout_y="104dip" android:textColor="@color/Black"></TextView>
+       <TextView android:layout_width="fill_parent" android:id="@+id/textView3" android:textColor="@color/Black" android:text="  Enter the update to be pushed" android:layout_height="wrap_content" android:layout_x="-3dip" android:layout_y="10dip"></TextView>
+</AbsoluteLayout>

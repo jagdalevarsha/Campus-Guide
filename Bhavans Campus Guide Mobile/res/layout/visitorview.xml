@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+android:id="@+id/widget188"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="@drawable/wall"
+>
+ <TextView android:id="@+id/txtdirection" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Ask Direction" android:textColor="@color/Black" android:layout_x="114dip" android:layout_y="339dip"></TextView>
+ <ImageButton android:background="@drawable/direction1" android:id="@+id/direction" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_x="128dip" android:layout_y="285dip"></ImageButton>
+ <TextView android:id="@+id/txtmap" android:layout_height="wrap_content" android:layout_width="116px" android:text="View Map" android:textColor="@color/Black" android:layout_x="116dip" android:layout_y="178dip"></TextView>
+ <ImageButton android:background="@drawable/contacts" android:id="@+id/map" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_x="128dip" android:layout_y="108dip"></ImageButton> 
+</AbsoluteLayout>

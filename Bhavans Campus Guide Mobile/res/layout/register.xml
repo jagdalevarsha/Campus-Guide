@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:background="@drawable/arrowright" android:layout_width="match_parent" android:layout_height="match_parent">
+<TableLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent" 
+    android:layout_width="fill_parent"
+    android:background="@drawable/wall">
+    
+    
+    >
+    <TableRow> 
+        <TextView 
+            android:text="Name:"
+            android:width="95px"
+            android:textColor="@color/Black"/>
+        <EditText 
+            android:id="@+id/txtNewName" 
+            android:width="150px" />
+    </TableRow> 
+    <TableRow>
+        <TextView 
+            android:text="Username:"
+            android:width="110px"
+            android:textColor="@color/Black"/>
+        <EditText 
+            android:id="@+id/txtNewUserName" 
+            android:width="150px"
+            />
+        <Button 
+            android:id="@+id/buttonCheckAvail" 
+             android:background="@drawable/chkmark"/>
+    </TableRow>
+    <TableRow> 
+        <TextView 
+            android:text="Password:"
+            android:width="95px"
+            
+            android:textColor="@color/Black"/>
+        <EditText 
+            android:id="@+id/txtNewPassword" 
+            android:width="150px"
+            android:password="true" />
+    </TableRow> 
+    <TableRow>
+        <TextView android:layout_width="wrap_content" android:id="@+id/textView3" android:layout_gravity="top" android:layout_height="wrap_content" android:text="Retype Password:" android:width="95px" android:textColor="@color/Black"></TextView>
+        <EditText 
+            android:id="@+id/txtNewRePassword" 
+           android:width="150px"
+            android:password="true" />
+    </TableRow>
+     
+     
+     <TextView android:textColor="@color/Black" android:text="Select update type" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/TextView01" ></TextView> 
+    
+   
+        <AbsoluteLayout android:id="@+id/absoluteLayout1" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <CheckBox android:id="@+id/chkComputer" android:layout_width="fill_parent" android:text="Computer" android:layout_height="wrap_content" android:layout_x="8dip" android:layout_y="0dip" android:keepScreenOn="true" android:textColor="@color/Black"></CheckBox>
+        </AbsoluteLayout>
+     
+  
+    <AbsoluteLayout
+
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+xmlns:android="http://schemas.android.com/apk/res/android"
+
+>
+        <CheckBox android:id="@+id/chkElectronics" android:layout_width="fill_parent" android:text="Electronics" android:layout_height="wrap_content" android:layout_x="8dip" android:layout_y="0dip" android:textColor="@color/Black"></CheckBox>   
+     </AbsoluteLayout>
+
+ 
+    <AbsoluteLayout
+
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+xmlns:android="http://schemas.android.com/apk/res/android"
+
+>
+            <CheckBox android:id="@+id/chkGeneral" android:layout_width="fill_parent" android:text="General" android:layout_height="wrap_content" android:layout_x="9dip" android:layout_y="0dip" android:textColor="@color/Black"></CheckBox>
+             </AbsoluteLayout>
+    
+            <Button android:text="Submit" android:layout_width="wrap_content" android:id="@+id/buttonSubmit" android:layout_height="wrap_content"></Button>
+            <AbsoluteLayout android:id="@+id/absoluteLayout2" android:layout_height="wrap_content" android:layout_width="wrap_content"></AbsoluteLayout>
+   
+  
+</TableLayout>
+
+</LinearLayout>

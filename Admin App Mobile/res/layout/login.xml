@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+   
+   <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/wall"
+    >
+        
+        
+            <TextView android:layout_height="wrap_content"  android:id="@+id/TextView03" android:layout_width="wrap_content"></TextView>
+            <TextView android:id="@+id/textView1" android:width="120px" android:layout_height="wrap_content" android:layout_width="match_parent" android:text="User Name:" android:textColor="@color/Black" android:layout_x="4dip" android:layout_y="42dip"></TextView>
+            <TextView android:id="@+id/textView2" android:width="120px" android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Password:" android:textColor="@color/Black" android:layout_x="5dip" android:layout_y="106dip"></TextView>
+            <Button android:id="@+id/buttonSignIn" android:text="  " android:background="@drawable/next" android:layout_height="wrap_content" android:layout_width="wrap_content" android:width="10px" android:layout_x="128dip" android:layout_y="154dip"></Button>
+            <EditText android:text="" android:layout_height="wrap_content" android:id="@+id/txtUserName" android:layout_width="230dip" android:width="200px" android:layout_x="88dip" android:layout_y="30dip"></EditText>
+            <EditText android:password="true" android:text="" android:layout_height="wrap_content" android:id="@+id/txtPassword" android:layout_width="230dip" android:width="100px" android:layout_x="88dip" android:layout_y="90dip"></EditText>
+          
+
+</AbsoluteLayout>

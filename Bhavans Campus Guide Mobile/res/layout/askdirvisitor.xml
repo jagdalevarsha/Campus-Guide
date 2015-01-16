@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+
+xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/wall" android:layout_width="match_parent" android:layout_height="match_parent">
+ 
+ 
+<LinearLayout
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_gravity="bottom|center"
+        >
+
+</LinearLayout>
+<com.google.android.maps.MapView android:layout_width="match_parent" android:clickable="true" android:layout_height="match_parent" android:id="@+id/myMapView1" android:layout_x="2dip" android:layout_y="120dip" android:apiKey="06BP7sm99g-qznuFoAS9l1NCzmwZWSinjLp1woA"></com.google.android.maps.MapView>
+<EditText android:id="@+id/Src" android:hint="Enter Source" android:layout_height="wrap_content" android:layout_x="0dip" android:layout_y="11dip" android:layout_width="265dip"></EditText>
+
+<!-- <EditText android:id="@+id/Dest" android:hint="Enter destination" android:layout_width="427px" android:layout_height="wrap_content" android:text="Enter destination " android:layout_x="0dip" android:layout_y="11dip"></EditText>-->
+<!-- <EditText android:layout_width="fill_parent" android:id="@+id/Dest" android:text="Enter destination" android:hint="Enter Destination!" android:width="350px" android:layout_height="wrap_content" android:layout_x="0dip" android:layout_y="67dip"></EditText>-->
+<EditText android:layout_x="1dip" android:hint="Enter Destination" android:id="@+id/Dest" android:layout_height="wrap_content" android:layout_y="69dip" android:layout_width="265dip"></EditText>
+<Button android:id="@+id/askDir" android:text="     " android:background="@drawable/signin" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_x="278dip" android:layout_y="75dip"></Button>
+<Button android:id="@+id/usecurrLoc" android:text="   " android:background="@drawable/currloc" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_x="274dip" android:layout_y="6dip"></Button>
+<Button android:id="@+id/refresh" android:background="@drawable/refresh" android:text="     " android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_x="282dip" android:layout_y="438dip"></Button>
+</AbsoluteLayout>

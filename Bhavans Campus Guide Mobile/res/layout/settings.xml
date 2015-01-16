@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout
+xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/wall" android:layout_width="match_parent" android:layout_height="match_parent">
+     <RadioGroup android:id="@+id/r1" android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="vertical" android:layout_x="109dip" android:layout_y="27dip">
+         <RadioButton android:layout_height="wrap_content" android:textColor="@color/Black" android:text="Visible" android:checked="false" android:textSize="13dip" android:id="@+id/visibleYes" android:layout_width="wrap_content"></RadioButton>
+         <RadioButton android:layout_height="wrap_content" android:textColor="@color/Black" android:text="Invisible" android:checked="false" android:textSize="13dip" android:id="@+id/visibleNo" android:layout_width="wrap_content"></RadioButton>
+     </RadioGroup>
+     <TextView android:textColor="@color/Black" android:text="Edit update preferences" android:id="@+id/textView2" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_x="80dip" android:layout_y="154dip"></TextView>
+     <Button android:id="@+id/buttonVisibility" android:background="@drawable/signin" android:text="  " android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_x="140dip" android:layout_y="120dip"></Button>
+     <TextView android:textColor="@color/Black" android:text="Your Visibility to others" android:id="@+id/textView1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_x="89dip" android:layout_y="6dip"></TextView>
+     <Button android:id="@+id/buttonUpdates" android:background="@drawable/signin" android:text="  " android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_x="136dip" android:layout_y="445dip"></Button>
+     <RadioGroup android:id="@+id/r2" android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="vertical" android:layout_x="109dip" android:layout_y="351dip">
+         <RadioButton android:layout_height="wrap_content" android:textColor="@color/Black" android:text="Yes" android:checked="false" android:textSize="13dip" android:id="@+id/updateYes" android:layout_width="wrap_content"></RadioButton>
+         <RadioButton android:layout_height="wrap_content" android:textColor="@color/Black" android:text="No" android:checked="false" android:textSize="13dip" android:id="@+id/updateNo" android:layout_width="wrap_content"></RadioButton>
+     </RadioGroup>
+     <TextView android:textColor="@color/Black" android:text="Recieve updates" android:id="@+id/textView3" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_x="100dip" android:layout_y="334dip"></TextView>
+     <Button android:id="@+id/buttonUpdatePref" android:background="@drawable/signin" android:text="  " android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_x="139dip" android:layout_y="298dip"></Button>
+     <CheckBox android:textColor="@color/Black" android:id="@+id/chkElectronics" android:text="Electronics" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_x="109dip" android:layout_y="214dip" android:textSize="13dip"></CheckBox>
+     <CheckBox android:textSize="13dip" android:textColor="@color/Black" android:id="@+id/chkComputer" android:text="Computer" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_x="109dip" android:layout_y="172dip"></CheckBox>
+     <CheckBox android:textSize="13dip" android:textColor="@color/Black" android:id="@+id/chkGeneral" android:text="General" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_x="109dip" android:layout_y="254dip"></CheckBox>
+     
+</AbsoluteLayout>

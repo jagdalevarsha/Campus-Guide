@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout
+android:id="@+id/wallpaper"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="@drawable/wall"
+>
+    <Button android:id="@+id/btnClear" android:text="   " android:background="@drawable/edit_delete" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_x="268dip" android:layout_y="4dip"></Button>
+    <TextView android:id="@+id/txtUpdate" android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="Updates From Bhavans Campus Guide       " android:textColor="@color/Black" android:layout_x="0dip" android:layout_y="26dip"></TextView>
+    <ListView android:layout_height="wrap_content" android:id="@+id/listofUpdates" android:layout_width="match_parent" android:layout_x="0dip" android:layout_y="71dip"></ListView>
+    
+    
+
+</AbsoluteLayout>

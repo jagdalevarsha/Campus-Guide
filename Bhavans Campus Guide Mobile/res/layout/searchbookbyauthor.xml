@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout
+android:id="@+id/wallpaper"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="@drawable/wall"
+>
+
+                      
+            <EditText android:text="" android:layout_height="wrap_content" android:id="@+id/txtAuthor" android:maxLength="30" android:layout_width="265dip"></EditText>
+            <ImageButton android:background="@drawable/search" android:id="@+id/buttonSearchAuthor" android:layout_height="wrap_content" android:layout_width="58px" android:layout_x="268dip" android:layout_y="0dip"></ImageButton>
+            <TextView android:id="@+id/txtCountBookbyAuthor" android:textSize="18px" android:layout_height="30px" android:layout_width="262px" android:textColor="@color/Black" android:layout_x="6dip" android:layout_y="48dip"></TextView>
+            <ListView android:layout_height="wrap_content" android:id="@+id/listBookbyAuthor" android:layout_width="fill_parent" android:layout_x="2dip" android:layout_y="71dip"></ListView>
+             
+                 
+    </AbsoluteLayout>              
+
